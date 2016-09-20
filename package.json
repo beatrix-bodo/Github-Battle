@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "author": "Beatrix Bodó (https://github.com/beatrix-bodo)",
   "license": "ISC",
