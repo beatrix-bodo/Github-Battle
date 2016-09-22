@@ -44,11 +44,6 @@ var Avatar = React.createClass({
 });
 
 ReactDOM.render(
-  <Avatar user="USER_DATA" />,
-  document.getElementById("app"),
-);
-
-ReactDOM.render(
   <Avatar user={USER_DATA} />,
   document.getElementById('app')
 );
